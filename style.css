@@ -1,0 +1,49 @@
+footer {position:fixed;
+    bottom:0;
+    left:50%;
+    margin-left:-200px; /*negative half the width */
+    width:400px;
+    height:13px;
+    position: absolute;
+    bottom: -200px;
+    text-align: center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.topright {
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  
+}
+.nexttotopright {
+  position: absolute;
+  top: 1px;
+  right: 300px;
+  
+}
+.buyButt{
+  float: right;
+  padding: 5px
+}
+
+.removeButt{
+  float: right;
+  padding: 5px;
+}
+
+nav { position:fixed;
+    bottom:0;
+    left:50%;
+    margin-left:-200px; /*negative half the width */
+    width: 500px;
+    height:13px;
+    position: absolute;
+    bottom: -50px;
+    text-align: center;
+}
